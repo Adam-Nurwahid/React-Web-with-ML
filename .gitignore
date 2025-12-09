@@ -1,0 +1,15 @@
+# Abaikan folder sampah nodejs
+node_modules/
+dist/
+
+# Abaikan virtual environment python
+venv/
+__pycache__/
+
+# Abaikan file sistem/editor
+.DS_Store
+.vscode/
+
+# PENTING: Cek ukuran model kamu
+# Jika model .h5 kamu LEBIH DARI 100MB, hapus tanda pagar di baris bawah ini:
+# *.h5
